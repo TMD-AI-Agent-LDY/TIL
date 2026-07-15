@@ -1,4 +1,4 @@
-# Day11. DB Basic (26.07.15)Database
+# Day11. DB Basic (26.07.15)
 
 #### Database
 
@@ -60,6 +60,7 @@
   - UNIQUE
     - 중복을 허용하지 않는 제약 조건
       ![005.png](images/005.png)
+      
   - DEFAULT
     - 값을 넣지 않았을 때 자동으로 들어갈 기본값
   - AUTOINCREMENT
@@ -67,9 +68,11 @@
       - ID를 직접 관리하지 않아도 되는 용이성
       - 중복 ID 실수를 막을 수 있음
         ![006.png](images/006.png)
+        
 - ALTER
   - 기존 테이블의 구조를 수정
     ![007.png](images/007.png)
+    
 - DROP
   - 테이블 삭제
     - 한 번에 하나의 테이블만 삭제 가능
@@ -96,10 +99,13 @@
   - Create : 데이터 생성
     ![009.png](images/009.png)
     ![010.png](images/010.png)
+    
   - Read : 데이터 조회
     ![011.png](images/011.png)
+    
     - 전체 조회
       ![012.png](images/012.png)
+      
     - 데이터 정렬 조회
       - ASC: 오름차순
       - DESC: 내림차순
@@ -111,6 +117,7 @@
       - AND / OR
         ![016.png](images/016.png)
         ![017.png](images/017.png)
+  
       - IN : 여러 조건 필터링
         ![018.png](images/018.png)
       - LIKE : 문자열 검색
@@ -118,6 +125,7 @@
         ![019.png](images/019.png)
       - LIMIT : 반환되는 행의 수 제한
         ![020.png](images/020.png)
+        
   - Update : 데이터 업데이트
     - Update : 데이터 수정
     - UPDATE + 업데이트할 테이블 지정
